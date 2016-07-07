@@ -52,9 +52,9 @@ if sys.argv[-1] == 'publish':
 
 
 setup(
-    name='jsonhyperschmea-codec',
+    name='jsonhyperschema-codec',
     version=version,
-    url='http://github.com/encode/jsonhyperschmea-codec/',
+    url='http://github.com/encode/jsonhyperschema-codec/',
     license='BSD',
     description='A JSON Hyper-Schema codec for Core API.',
     author='Tom Christie',

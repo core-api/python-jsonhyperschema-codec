@@ -9,10 +9,10 @@
 
 Install using pip:
 
-    $ pip install jsonhyperschmea-codec
+    $ pip install jsonhyperschema-codec
 
 
-[travis-image]: https://secure.travis-ci.org/encode/jsonhyperschmea-codec.svg?branch=master
-[travis]: http://travis-ci.org/encode/jsonhyperschmea-codec?branch=master
-[pypi-image]: https://img.shields.io/pypi/v/jsonhyperschmea-codec.svg
-[pypi]: https://pypi.python.org/pypi/jsonhyperschmea-codec
+[travis-image]: https://secure.travis-ci.org/encode/jsonhyperschema-codec.svg?branch=master
+[travis]: http://travis-ci.org/encode/jsonhyperschema-codec?branch=master
+[pypi-image]: https://img.shields.io/pypi/v/jsonhyperschema-codec.svg
+[pypi]: https://pypi.python.org/pypi/jsonhyperschema-codec
