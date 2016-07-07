@@ -71,7 +71,7 @@ setup(
     ],
     entry_points={
         'coreapi.codecs': [
-            'jsonhyperschema=jsonhyperschema_codec.JSONHyperSchemaCodec',
+            'jsonhyperschema=jsonhyperschema_codec:JSONHyperSchemaCodec',
         ]
     }
 )
