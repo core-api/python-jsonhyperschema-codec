@@ -68,5 +68,10 @@ setup(
         'Operating System :: OS Independent',
         'Programming Language :: Python',
         'Programming Language :: Python :: 3',
-    ]
+    ],
+    entry_points={
+        'coreapi.codecs': [
+            'jsonhyperschema=jsonhyperschema_codec.JSONHyperSchemaCodec',
+        ]
+    }
 )
