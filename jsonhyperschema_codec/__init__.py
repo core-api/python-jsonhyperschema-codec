@@ -9,7 +9,7 @@ import uritemplate
 import urllib
 
 
-__version__ = "0.0.2"
+__version__ = "0.0.3"
 
 
 def _get_content(data, base_url, ref):
