@@ -9,7 +9,7 @@ import uritemplate
 import urllib
 
 
-__version__ = "0.0.3"
+__version__ = "1.0.0"
 
 
 def _get_content(data, base_url, ref):
@@ -87,6 +87,7 @@ class JSONHyperSchemaCodec(BaseCodec):
     JSON Hyper-Schema.
     """
     media_type = 'application/schema+json'
+    supports = ['encoding']
 
     def load(self, bytes, base_url=None):
         """
