@@ -61,7 +61,7 @@ setup(
     author_email='tom@tomchristie.com',
     packages=get_packages('jsonhyperschema_codec'),
     package_data=get_package_data('jsonhyperschema_codec'),
-    install_requires=[],
+    install_requires=['coreapi'],
     classifiers=[
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
