@@ -54,7 +54,7 @@ if sys.argv[-1] == 'publish':
 setup(
     name='jsonhyperschema-codec',
     version=version,
-    url='http://github.com/encode/jsonhyperschema-codec/',
+    url='http://github.com/core-api/python-jsonhyperschema-codec/',
     license='BSD',
     description='A JSON Hyper-Schema codec for Core API.',
     author='Tom Christie',
