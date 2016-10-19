@@ -9,7 +9,7 @@ import uritemplate
 import urllib
 
 
-__version__ = "1.0.1"
+__version__ = "1.0.2"
 
 
 def _get_content(data, base_url, ref):
@@ -89,10 +89,11 @@ class JSONHyperSchemaCodec(BaseCodec):
     media_type = 'application/schema+json'
     supports = ['decoding']
 
-    def load(self, bytes, base_url=None):
+    def load(self, bytes, **kwargs):
         """
         Takes a bytestring and returns a document.
         """
+        base_url = kwargs.get('base_url', None)
         try:
             data = json.loads(bytes.decode('utf-8'))
         except ValueError as exc:
